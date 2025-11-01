@@ -1,0 +1,25 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# Firmware
+start_x=1
+
+# Kernel
+kernel=kernel
+upstream_kernel=1
+arm_64bit=1
+
+# Initramfs
+initramfs ramdisk.img followkernel
+
+# CPU
+arm_boost=1
+
+# Display
+hdmi_enable_4kp60=1
+
+# UART
+enable_uart=1
+uart_2ndstage=1

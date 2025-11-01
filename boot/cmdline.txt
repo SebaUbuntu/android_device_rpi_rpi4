@@ -1,0 +1,1 @@
+8250.nr_uarts=1 console=ttyS0,115200 console=tty0,115200 no_console_suspend loop.max_part=7 androidboot.hardware=rpi androidboot.boot_devices=any androidboot.init_fatal_reboot_target=recovery androidboot.first_stage_console=2 androidboot.console=ttyS0 androidboot.serialconsole=1 androidboot.selinux=permissive
